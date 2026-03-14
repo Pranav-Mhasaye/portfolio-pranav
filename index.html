@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pranav Mhasaye | Creative Developer</title>
+    <meta name="description" content="Portfolio of Pranav Mhasaye - Computer Engineering Student, Developer, Innovator">
+
+    <!-- Google Fonts: Syne (Brutalist Headers) & Inter (Body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Syne:wght@500;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- SVG Noise Overlay -->
+    <div class="noise-overlay"></div>
+
+    <!-- Custom Magnetic Cursor -->
+    <div class="cursor-dot" data-cursor-dot></div>
+    <div class="cursor-outline" data-cursor-outline></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-content">
+            <a href="#" class="logo hidden" data-reveal>PM.</a>
+            <ul class="nav-links">
+                <li class="hidden" data-reveal><a href="#about" class="magnetic-btn">About</a></li>
+                <li class="hidden" data-reveal><a href="#projects" class="magnetic-btn">Work</a></li>
+                <li class="hidden" data-reveal><a href="#contact" class="magnetic-btn">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <p class="hero-subtitle hidden" data-reveal>HELLO, I AM</p>
+                <h1 class="hero-title hidden" data-reveal>PRANAV<br>MHASAYE</h1>
+                <div class="hero-roles hidden" data-reveal>
+                    <span class="role">Computer Engineering Student</span>
+                    <span class="dot">•</span>
+                    <span class="role">Developer</span>
+                    <span class="dot">•</span>
+                    <span class="role">Innovator</span>
+                </div>
+                <div class="cta-container hidden" data-reveal>
+                    <a href="#projects" class="primary-btn magnetic-btn">Explore Work <svg width="24" height="24"
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7" />
+                        </svg></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Marquee Divider -->
+        <div class="marquee-container">
+            <div class="marquee">
+                <span>OPEN SOURCE · WEB DEV · C++ · PYTHON · JS · UI/UX · LEADERSHIP · DRONES · PHOTOGRAPHY · OPEN
+                    SOURCE · WEB DEV · C++ · PYTHON · JS · UI/UX · LEADERSHIP · DRONES · PHOTOGRAPHY ·</span>
+            </div>
+        </div>
+
+        <!-- About Bento Box Section -->
+        <section id="about" class="about-section">
+            <h2 class="section-title hidden" data-reveal>ABOUT ME</h2>
+            <div class="bento-grid">
+                <!-- Bio -->
+                <div class="bento-item bio-item hidden" data-reveal>
+                    <div class="bio-content">
+                        <h3>The Journey</h3>
+                        <p>I am from Murtizapur, Akola, currently a First-Year Computer Engineering student at MIT
+                            Academy of Engineering. I genuinely love coding and exploring technology one line at a time.
+                            I'm focused on strengthening fundamentals, experimenting, and growing consistently.</p>
+                    </div>
+                    <div class="bio-image">
+                        <img src="profile.jpg" alt="Pranav Mhasaye Portrait" />
+                    </div>
+                </div>
+                <!-- Academics -->
+                <div class="bento-item stats-item hidden" data-reveal>
+                    <div class="stat-number">9.35</div>
+                    <div class="stat-label">Semester 1 CGPA</div>
+                </div>
+                <!-- Skills -->
+                <div class="bento-item skills-item hidden" data-reveal>
+                    <h3>Tech Arsenal</h3>
+                    <div class="tags">
+                        <span>C++</span>
+                        <span>Python</span>
+                        <span>JavaScript</span>
+                        <span>HTML/CSS</span>
+                        <span>SQL</span>
+                        <span>Linux CLI</span>
+                    </div>
+                </div>
+                <!-- Hobbies -->
+                <div class="bento-item hobbies-item hidden" data-reveal>
+                    <h3>Beyond Code</h3>
+                    <ul class="hobby-list">
+                        <li>🚁 Drone Flying & Competitions</li>
+                        <li>📸 Shutterbugs Photography Club</li>
+                        <li>⛩️ Anime & Movies</li>
+                        <li>🏅 Sports Enthusiast</li>
+                    </ul>
+                </div>
+                <!-- Leadership -->
+                <div class="bento-item leadership-item hidden" data-reveal>
+                    <h3>Leadership</h3>
+                    <p>Management & Design Team Coordinator for NAKSHATRA (Annual Gathering). Passionate about teamwork,
+                        emotional intelligence, and social work.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section">
+            <h2 class="section-title hidden" data-reveal>SELECTED WORK</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <article class="project-card hidden" data-reveal>
+                    <div class="project-content">
+                        <div class="project-meta">
+                            <span class="project-year">2024</span>
+                            <span class="project-type">Hackathon Winner</span>
+                        </div>
+                        <h3 class="project-title">LUMINOUS</h3>
+                        <p class="project-desc">A safety-first navigation prototype prioritizing human safety over
+                            speed. Calculates dynamic "Safety Scores" based on lighting, commercial activity, and police
+                            proximity.</p>
+                        <div class="tags">
+                            <span>Flutter</span>
+                            <span>Google Maps API</span>
+                            <span>Custom Algorithms</span>
+                        </div>
+                    </div>
+                    <div class="project-visual bg-image-1"></div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-card hidden" data-reveal>
+                    <div class="project-content">
+                        <div class="project-meta">
+                            <span class="project-year">2024</span>
+                            <span class="project-type">System Architecture</span>
+                        </div>
+                        <h3 class="project-title">Linux CLI Library</h3>
+                        <p class="project-desc">A comprehensive Library Management System using a flat-file database and
+                            Linux text processing utilities. Features driver-less barcode scanner integration via stdin.
+                        </p>
+                        <div class="tags">
+                            <span>Shell Scripting</span>
+                            <span>Linux Internals</span>
+                            <span>Hardware I/O</span>
+                        </div>
+                    </div>
+                    <div class="project-visual bg-image-2"></div>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="project-card hidden" data-reveal>
+                    <div class="project-content">
+                        <div class="project-meta">
+                            <span class="project-year">2023</span>
+                            <span class="project-type">Hardware/Logic</span>
+                        </div>
+                        <h3 class="project-title">Smart Alarm System</h3>
+                        <p class="project-desc">Hardware security system using 7400 Quad 2-Input NAND gates. Implements
+                            sequential logic SR Memory Latches for breach detection without microcontrollers.</p>
+                        <div class="tags">
+                            <span>Digital Logic</span>
+                            <span>Combinational Circuits</span>
+                            <span>Hardware</span>
+                        </div>
+                    </div>
+                    <div class="project-visual bg-image-3"></div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer id="contact" class="footer">
+            <div class="footer-content">
+                <h2 class="footer-title hidden" data-reveal>LET'S CONNECT</h2>
+                <p class="footer-subtitle hidden" data-reveal>Driven by curiosity, determined to achieve something
+                    meaningful.</p>
+                <div class="footer-links hidden" data-reveal>
+                    <a href="mailto:pranavmhasaye2347@gmail.com" target="_blank" class="magnetic-btn hover-link">Email</a>
+                    <a href="https://www.linkedin.com/in/pranav-mhasaye" target="_blank" class="magnetic-btn hover-link">LinkedIn</a>
+                    <a href="https://github.com/Pranav-Mhasaye" target="_blank" class="magnetic-btn hover-link">GitHub</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Pranav Mhasaye. Designed with &hearts;</p>
+                <p class="india-badge">Proud to be an Indian 🇮🇳</p>
+            </div>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
